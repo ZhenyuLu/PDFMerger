@@ -88,7 +88,7 @@ namespace PDFMerger
                 }
             }
             outputPDFDocument.Save(outputFilePath);
-
+            // Check if it is ok to save.
             var result = MessageBox.Show("Files have been merged!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
